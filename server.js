@@ -2,6 +2,7 @@ require('dotenv').config();
 const express = require('express');
 const axios = require('axios');
 const app = express();
+const path = require('path');
 const PORT = 3000;
 
 app.use(express.static('public'));
